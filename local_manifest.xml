@@ -35,7 +35,7 @@
   <project path="bootable/recovery" name="CustomROMs/android_bootable_recovery" revision="lineage-15.1" groups="pdk-cw-fs" />
 
   <!-- omnirom -->
-  <project path="external/busybox" name="CustomROMs/android_external_busybox" revision="lineage-15.1" />
+ <project path="external/busybox" name="CustomROMs/android_external_busybox" revision="android-8.1" />
 
   <!-- START of CyanogenMod
   <project path="external/busybox" name="CustomROMs/android_external_busybox" remote="github" revision="cm-14.1" />
@@ -58,11 +58,17 @@
   <project path="external/jemalloc" name="arter97/android_external_jemalloc" remote="github" revision="oreo-mr1" />
 
   <!--MusicFX -->
-  <project path="packages/apps/MusicFX" name="CustomROMs/android_packages_apps_MusicFX" revision="lineage-15.1" />
+<!--
+  <project path="packages/apps/MusicFX" name="CustomROMs/android_packages_apps_MusicFX" revision="lineage-15.1" />-->
 
   <project path="hardware/samsung" name="rINanDO/android_hardware_samsung" remote="github" revision="lineage-15.1" />
   <project path="kernel/codina/chrono" name="Chrono_Kernel-1" remote="chrono" revision="master" />
+  <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="chrono" revision="lineage-15.1" />
   <project path="device/samsung/codina" name="CustomROMs/android_device_samsung_codina" revision="lineage-15.1" />
+  <project path="device/samsung/smdk4412-common" name="CustomROMs/android_device_samsung_smdk4412-common" revision="lineage-15.1" />
+  <project path="device/samsung/i9300" name="CustomROMs/android_device_samsung_i9300" revision="lineage-15.1" />
+  <project path="vendor/samsung/smdk4412-common" name="CustomROMs/android_vendor_samsung_smdk4412-common" revision="lineage-15.1" />
+  <project path="vendor/samsung/i9300" name="CustomROMs/android_vendor_samsung_i9300" revision="lineage-15.1" />
   <project path="hardware/u8500" name="CustomROMs/android_hardware_u8500" revision="lineage-15.1" />
   <project path="vendor/samsung/u8500-common" name="CustomROMs/android_vendor_samsung_u8500-common" revision="lineage-15.1" />
 
