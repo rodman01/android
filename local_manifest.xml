@@ -69,7 +69,7 @@
   <project path="device/samsung/i9300" name="CustomROMs/android_device_samsung_i9300" revision="lineage-15.1" />
   <project path="vendor/samsung/smdk4412-common" name="CustomROMs/android_vendor_samsung_smdk4412-common" revision="lineage-15.1" />
   <project path="vendor/samsung/i9300" name="CustomROMs/android_vendor_samsung_i9300" revision="lineage-15.1" />
-  <project path="hardware/u8500" name="CustomROMs/android_hardware_u8500" revision="lineage-15.1" />
+<!--  <project path="hardware/u8500" name="CustomROMs/android_hardware_u8500" revision="lineage-15.1" /> -->
   <project path="vendor/samsung/u8500-common" name="CustomROMs/android_vendor_samsung_u8500-common" revision="lineage-15.1" />
 
 </manifest>
